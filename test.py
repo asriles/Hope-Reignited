@@ -1,4 +1,6 @@
 #!/uer/bim/Python2.7
+import Time
+import os
 
 n = int(input())
 seed = 0
@@ -12,3 +14,13 @@ while n<=1:
     seed += 1
 
 print(seed)
+time.sleep(1)
+print("[          ]0% ")
+time.sleep(1)
+print("[=====     ]50%")
+time.sleep(1)
+print("[==========]100%")
+time.sleep(1)
+print("----------")
+time.sleep(0.5)
+print(n)
